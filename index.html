@@ -2,11 +2,36 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+        	div {
+        		text-align: center;
+        		margin-top: 250px;
+        	}
+        	#corner {
+        		border-radius: 12px;
+        		border: 2px solid black;
+				width: 200px;
+				height: 30px;
+
+        	}
+        	
+        </style>
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+    	<p style="text-align: right;">
+	    	<a href="index2.html">Image Search</a>
+	    	<a href="index3.html">Advanced Search</a>
+    	</p>
+    	<div>
+    		<h1>My Google</h1>
+	        <form action="https://google.com/search">
+	            <input id=corner type="text" name="q">
+	            <p>
+	            	<input type="submit" value="Google Search" name="btnK">
+	            	<input type="submit" value="I'm Feeling Lucky" name="btnI">
+	            </p>
+	        </form>
+
+        </div>
     </body>
 </html>
